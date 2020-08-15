@@ -33,6 +33,9 @@
 " Sets how many lines of history VIM has to remember
 set history=500
 
+" Use system clipboard for copy and paste
+set clipboard=unnamedplus
+
 " Enable filetype plugins
 filetype plugin on
 filetype indent on
