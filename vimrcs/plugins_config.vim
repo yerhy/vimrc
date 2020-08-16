@@ -186,6 +186,12 @@ let g:startify_lists = [
       \ { 'type': 'commands',  'header': ['   Commands']       },
       \ ]
 
+let g:startify_custom_header =
+      \ 'startify#center(startify#fortune#cowsay())'
+
+" let g:startify_custom_header =
+"         \ startify#center(split(system('fortune | cowsay'), '\n'))
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => fzf
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
