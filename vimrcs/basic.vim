@@ -144,6 +144,8 @@ endif
 
 try
     colorscheme desert
+    set cursorline
+    hi CursorLine term=bold cterm=bold ctermbg=darkred ctermfg=white guibg=darkred guifg=white
 catch
 endtry
 
