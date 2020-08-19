@@ -235,3 +235,7 @@ let g:fzf_colors =
 let g:fzf_history_dir = '~/.local/share/fzf-history'
 
 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => vim-notes
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+autocmd BufNewFile,BufRead */.git/COMMIT_EDITMSG setlocal filetype=notes
