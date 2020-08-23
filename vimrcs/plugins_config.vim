@@ -243,4 +243,5 @@ autocmd BufNewFile,BufRead */.git/COMMIT_EDITMSG setlocal filetype=notes
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => ranger-vim
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:ranger_map_keys = 0
 map <leader>r :Ranger<cr>
