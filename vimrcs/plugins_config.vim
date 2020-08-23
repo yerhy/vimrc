@@ -239,3 +239,8 @@ let g:fzf_history_dir = '~/.local/share/fzf-history'
 " => vim-notes
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 autocmd BufNewFile,BufRead */.git/COMMIT_EDITMSG setlocal filetype=notes
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => ranger-vim
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+map <leader>r :Ranger<cr>
