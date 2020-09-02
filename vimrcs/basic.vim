@@ -32,8 +32,7 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " set number
-set number 
-
+set rnu
 " Sets how many lines of history VIM has to remember
 set history=500
 
@@ -281,12 +280,6 @@ set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Remap VIM 0 to first non-blank character
 map 0 ^
-
-" set number
-map <F2> :set number<CR>
-
-" set nonumber
-map <F3> :set nonumber<CR>
 
 " pretty json format 
 map <F4> :%!python -m json.tool<CR>
